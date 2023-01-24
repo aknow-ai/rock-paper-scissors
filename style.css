@@ -1,0 +1,51 @@
+body {
+    font-size: 16px;
+    font-family: monospace;
+}
+#cuadro {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choice1, .choice2, .choice3 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultOfRound {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    border: 2px solid black;
+    height: 90px;
+}
+
+#posicionador {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#scoreBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.score {
+    font-size: 1.2rem;
+}
